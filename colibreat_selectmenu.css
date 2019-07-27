@@ -1,0 +1,73 @@
+.colibreat-selectmenu {
+	position: relative;
+	display: block;
+	width: 100%;
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+  	-moz-user-select: none;     /* Firefox all */
+  	-ms-user-select: none;      /* IE 10+ */
+  	user-select: none;
+
+}
+.colibreat-selectmenu .title {
+	border: 1px solid #dedede;
+	border-radius: 3px;
+	background-color: #eee;
+	cursor: pointer;
+}
+.title-sm {
+	padding: 5px 11px 5px 11px;
+	font-size: 14px;
+}
+.title-md {
+	padding: 5px 21px 5px 21px;
+	font-size: 15px;
+}
+.colibreat-selectmenu .title:hover {
+	background-color: #dedede;
+}
+.colibreat-selectmenu .menu {
+	position: absolute;
+	left: 0;
+	top: 100%;
+	width: 100%;
+	min-height: 50px;
+	background-color: #FFFFFF;
+	border-left: 1px solid #dedede;
+	border-right: 1px solid #dedede;
+	border-bottom: 1px solid #dedede;
+	display: none;
+	z-index: 100;
+}
+.colibreat-selectmenu .menu ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.li-sm {
+	padding: 5px 11px 5px 11px;
+	font-size: 14px;
+}
+.li-md {
+	padding: 5px 21px 5px 21px;
+	font-size: 15px;
+}
+.colibreat-selectmenu .menu ul li {
+	display: block;
+	text-decoration: none;
+	color: #000000;
+	border-top: 1px solid #FFFFFF;
+	border-bottom: 1px solid #FFFFFF;
+	cursor: pointer;
+}
+.colibreat-selectmenu .menu ul li:hover {
+	background-color: rgb(217, 77, 17);
+	color: #FFFFFF;
+	border-top: 1px solid rgb(189, 67, 15);
+	border-bottom: 1px solid rgb(189, 67, 15);
+}
+.colibreat-selectmenu .menu ul li.active {
+	background-color: rgb(217, 77, 17);
+	color: #FFFFFF;
+	border-top: 1px solid rgb(189, 67, 15);
+	border-bottom: 1px solid rgb(189, 67, 15);
+}
